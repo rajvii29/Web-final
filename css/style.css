@@ -1,0 +1,23 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.hr {
+    height: 1px;
+    background-color: #954707;
+    width: 45px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 650;
+    color: #954707;
+}
+
+.text-center {
+    text-align: center!important;
+}

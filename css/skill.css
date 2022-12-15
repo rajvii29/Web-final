@@ -1,0 +1,48 @@
+
+.skillsDiv {
+    padding: 5% 0% 5% 0%;
+    height: auto;
+    width: 100%;
+    background-color: #f6f5f5;
+  }
+  .moreSkillsBtn {
+    background-color: #00f64e;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    /* left: 0%; */
+    /* margin-top: 20%; */
+    font-size: 1.3em;
+  }
+  .moreSkillsBtn:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #00f615;
+    border: 1px solid #00f608;
+  }
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+    .skillsDiv {
+        height: auto;
+        width: 100%;
+        background-color: #f6f5f5;
+        padding: 10% 0% 10% 0%;
+      }
+      
+      .moreSkillsDiv {
+        text-align: center;
+        margin-top: 13%;
+      }
+      .moreSkillsBtn {
+        background-color: #00f619;
+        color: #fff;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1em;
+        padding: 0.8em 2em;
+        transition: all 0.5s ease;
+      }
+}

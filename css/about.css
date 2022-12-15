@@ -1,0 +1,41 @@
+.aboutMeDiv {
+    margin: 40px 40px;
+}
+
+.aboutMeContent {
+    display: flex;
+    margin-top: 25px;
+}
+
+.aboutMeTable {
+    flex: 6;
+    font-size: 16px;
+    color: #336892;
+    font-weight: 550;
+}
+
+.styled-table th, .styled-table td{
+    padding: 14px 20px;
+}
+
+.aboutDetails {
+    color: #ba37ab;
+}
+
+.aboutMeText {
+    flex: 4;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #81b023;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+    .aboutMeDiv {
+        margin: 45px 25px;
+    }
+    
+    .aboutMeContent {
+        flex-direction: column;
+    }
+}

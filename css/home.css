@@ -1,0 +1,143 @@
+.userImageBlock {
+    display: inline-block;
+    width: 550px;
+    border: 2px solid rgb(9, 2, 45);
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    height: 350px;
+    margin-top: 5%;
+    margin-left: 10%;
+    box-shadow: 3px 4px 18px 3px rgba(9, 2, 66, 0.2);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: slidein;
+    overflow: hidden;
+  }
+  
+  .image {
+    border: 1px solid rgb(3, 7, 65);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 10%;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: slidein;
+    cursor: crosshair;
+    transition: all 0.4s;
+  }
+  
+  .image:hover {
+    margin-left: 28%;
+    transform: scale(2);
+  }
+  
+  .userContent {
+    display: inline-block;
+    justify-content: center;
+    color: #333333;
+    font-size: 20px;
+    margin-left: 10%;
+    position: absolute;
+    top: 30%;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: slidein;
+  }
+
+  .userContent h3 {
+    font-size: 1.3em;
+  }
+
+  .userContent h1 {
+    margin: 10px 0;
+    font-size: 2.1em;
+  }
+
+  .userContent p {
+    font-size: 1.1em;
+  }
+
+  .userContent span {
+    color: #273f5b;
+  }
+
+  .about-btn {
+    padding: 10px 30px;
+    background-color: #27545b;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid #275b3a;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-top: 350px;
+    }
+    50% {
+      margin-top: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    .userImageBlock {
+      animation: none;
+    }
+    .image {
+      animation: none;
+    }
+    .userContent {
+      display: block;
+      /* width: 70%; */
+      margin-top: 30%;
+      animation: none;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) and (min-width: 0px) {
+    .userImageBlock {
+      width: 83%;
+      border: 2px solid rgb(63, 61, 3);
+      border-top-right-radius: 100px;
+      border-bottom-left-radius: 100px;
+      height: 200px;
+      margin-top: 15%;
+      margin-left: 7%;
+      display: block;
+      animation: none;
+    }
+    .image {
+      height: 139px;
+      width: 151px;
+      margin-left: 23%;
+      animation: none;
+      margin-top: 19px;
+    }
+    .userContent {
+      display: inline-block;
+      margin-left: 10%;
+      /* width: 90%; */
+      margin-top: 10%;
+      margin-left: 6%;
+      animation: none;
+      position: static;
+    }
+
+    .userContent h3 {
+      font-size: 1em;
+    }
+  
+    .userContent h1 {
+      margin: 10px 0;
+      font-size: 1.5em;
+    }
+  
+    .userContent p {
+      font-size: 0.8em;
+    }
+  }
